@@ -1,0 +1,74 @@
+1.try block
+Used to wrap risky code (code that may throw an exception).
+
+2. catch block
+Used to handle the exception that occurs in the try block.
+
+Can have multiple catch blocks to handle different types of exceptions.
+
+3. finally block
+Contains code that always executes, regardless of whether an exception occurred or not.
+
+Commonly used to release resources (like closing files, database connections, etc.)
+
+4. differences : 
+
+ | Aspect     | `try`                             | `catch`                                 | `finally`                        |
+| ---------- | --------------------------------- | --------------------------------------- | -------------------------------- |
+| Purpose    | Wraps risky code                  | Handles the exception                   | Always executes for cleanup      |
+| Mandatory? | Yes (to use `catch` or `finally`) | No (can have `finally` without `catch`) | No (but often used)              |
+| Execution  | First to run                      | Only if exception matches               | Always, whether exception or not |
+ 
+ 
+ 5.  throw vs throws
+ 
+ | Aspect      | `throw`                                 | `throws`                                                   |
+| ----------- | --------------------------------------- | ---------------------------------------------------------- |
+| What is it? | Used to **manually throw an exception** | Used to **declare** that a method might throw an exception |
+| Position    | Inside a method                         | In the method **signature**                                |
+| Used with   | Exception object (`new`)                | Exception class                                            |
+| Example     | `throw new Exception("error");`         | `public void myMethod() throws Exception`                  |
+ 
+ 
+ 6. final and Finally
+ 
+ | Feature  | `final`                                  | `finally`                                        |
+| -------- | ---------------------------------------- | ------------------------------------------------ |
+| Type     | Keyword (non-access modifier)            | Part of exception handling (`try-catch-finally`) |
+| Purpose  | Prevents change (constants, inheritance) | Ensures code always runs (cleanup)               |
+| Use case | Variables, methods, classes              | In `try-catch` blocks                            |
+| Example  | `final int x = 10;`                      | See above in `finally` section                   |
+ 
+ 
+ 
+ ✅ Examples:
+final variable
+final int x = 10; // can't be changed later
+
+final method
+final void show() { } // can't be overridden
+
+final class
+final class Car { } // can't be extended
+
+
+throw
+The throw keyword is used inside a function to explicitly throw an exception when needed.
+It is used for logically throwing a single exception at a time.
+
+throws
+The throws keyword is used to delegate the responsibility of exception handling to the calling method.
+It allows specifying multiple exceptions that a method might throw.
+
+final
+The final keyword is used to define constants or to prevent modification.
+It can be used with:
+• Variables: makes them constant
+• Methods: prevents overriding
+• Classes: prevents inheritance
+
+finally
+The finally block is used in exception handling.
+It always executes after the try-catch block.
+It is commonly used to close resources like files, database connections, etc.
+The finally block runs regardless of whether an exception occurs or not.
