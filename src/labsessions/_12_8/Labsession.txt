@@ -1,1 +1,11 @@
-
+Create a folder
+Initialize Git
+Create a file
+Add & commit
+Add a remote origin
+Push to GitHub
+Clone an existing repository
+Pull changes from remote
+Make changes and push
+Stage & commit
+Push
