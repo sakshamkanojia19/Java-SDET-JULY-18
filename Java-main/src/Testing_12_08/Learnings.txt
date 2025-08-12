@@ -1,0 +1,5 @@
+1. Done some lab sessions on Git and Git Branching
+
+Create projects on branching concepts
+
+Started Selenium Testing learning basics
