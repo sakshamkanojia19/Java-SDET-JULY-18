@@ -9,3 +9,14 @@ Pull changes from remote
 Make changes and push
 Stage & commit
 Push
+
+
+
+
+Assignment 2  
+
+
+Create a new branch called feature/signup from main.
+Add a file signup.html, commit it, and push the branch to GitHub.
+Switch to main and merge feature/signup into it.;
+ 
