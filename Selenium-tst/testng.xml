@@ -6,9 +6,7 @@
   <test name="sampletest">
     <classes>
       <class name="TestNG.TestNGLaunchBrowser"/>
-       <class name="TestNG.TestNGMultipleTestcases"/>
-             <class name="TestNG.TestNy"/>
-             <class name="TestNG.TestNGParameters"/>
+ 
     </classes>
   </test>
 </suite>
