@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="DemoBlazeSuite" parallel="false">
+
+    <test name="AddToCartTest">
+        <!-- Parameter -->
+        <parameter name="Cart" value="Electronics"/>
+
+        <!-- Include groups -->
+        <groups>
+            <run>
+                <include name="Sanity"/>
+                <include name="Regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="labsession_19_08.AddtoCart_Ex"/>
+        </classes>
+    </test>
+
+</suite>

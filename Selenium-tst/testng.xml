@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="functionaltest" verbose="1">
+
+ <parameter name="browser" value="chrome"/>
+<parameter name="platform" value="windows"/>
+  <test name="sampletest">
+    <classes>
+      <class name="TestNG.TestNGLaunchBrowser"/>
+       <class name="TestNG.TestNGMultipleTestcases"/>
+             <class name="TestNG.TestNy"/>
+             <class name="TestNG.TestNGParameters"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SanitySmokeSuite" verbose="1">
+  <test name="SanitySmokeTests">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <include name="Smoke"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="labsession_16_08.GroupTest2"/>
+    </classes>
+  </test>
+</suite>

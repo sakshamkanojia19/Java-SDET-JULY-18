@@ -55,7 +55,7 @@ public class E2ERegistration {
 
         // upload pic
         WebElement uploadPicture = driver.findElement(By.id("picture"));
-        uploadPicture.sendKeys("C:\\Users\\Manisha\\OneDrive\\Pictures\\Screenshot 2024-11-13 154746.png");
+        uploadPicture.sendKeys("C:\\Users\\ASUS\\Downloads\\Grief-Card-4.jpg");
         Thread.sleep(1000);
 
         // enter address (corrected id)
