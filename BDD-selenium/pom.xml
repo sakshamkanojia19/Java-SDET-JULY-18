@@ -8,7 +8,7 @@
     <artifactId>BDD-selenium</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>BDD-selenium</name>
-    <url>http://www.example.com</url>
+ 
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,11 +26,11 @@
         </dependency>
 
         <!-- Selenium -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.31.0</version>
-        </dependency>
+     <dependency>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-java</artifactId>
+  <version>4.25.0</version> <!-- or latest -->
+</dependency>
 
         <!-- WebDriver Manager (latest only) -->
         <dependency>
@@ -52,6 +52,28 @@
             <version>7.22.1</version>
             <scope>test</scope>
         </dependency>
+        
+        <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.8.0</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.25.0</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.34</version> <!-- Latest as of now -->
+  <scope>provided</scope>
+</dependency>
+
 
         <!-- Extent Reports -->
         <dependency>
@@ -86,6 +108,11 @@
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.3.0</version>
+                     <configuration>
+                          <suiteXmlFiles>
+                          <suiteXmlFile>testng.xml</suiteXmlFile>
+                          </suiteXmlFiles>
+                          </configuration>
                 </plugin>
                 <plugin>
                     <artifactId>maven-jar-plugin</artifactId>

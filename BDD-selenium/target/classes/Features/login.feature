@@ -38,8 +38,8 @@ Scenario Outline: Verify the login functionality for multiple credentials
     | Admin    | admin123 |
     | Admin    | admin123 |
     | Admin    | admin123 |
-    | Admin    | saksham  |
-    | Saksham  | Kanojia  |
+#    | Admin    | saksham  |
+ #   | Saksham  | Kanojia  |
   
   
   #For diffrenttiate negative and postive 

@@ -24,11 +24,11 @@ public class E2ERegistration {
 
         // enter name
         WebElement username = driver.findElement(By.xpath("//input[@id='name']"));
-        username.sendKeys("Manisha");
+        username.sendKeys("Saksham");
 
         // enter email
         WebElement email = driver.findElement(By.xpath("//input[@id='email']"));
-        email.sendKeys("oria0302002@gmail.com");
+        email.sendKeys("saksham2002@gmail.com");
 
         // enter gender
         WebElement genderRadio = driver.findElement(By.xpath("(//input[@type='radio'])[2]"));
@@ -59,8 +59,8 @@ public class E2ERegistration {
         Thread.sleep(1000);
 
         // enter address (corrected id)
-        WebElement address = driver.findElement(By.id("currentAddress"));
-        address.sendKeys("Sirsi road");
+        WebElement address = driver.findElement(By.xpath("//input[@id='picture']"));
+        address.sendKeys("16/5  block ms extenstion");
 
         // select state (custom dropdown)
         driver.findElement(By.id("state")).click();
