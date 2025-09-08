@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_grid.SeleniumGridTestcase">
+      <class name="Healthtest_Capstone_Project_Wipro.WestFlorida_human">
         <methods>
-          <include name="tearDown"/>
-          <include name="login" invocation-numbers="1"/>
+          <include name="searchAndNavigate"/>
+          <include name="openWebsite"/>
+          <include name="setup"/>
+          <include name="myAccountAndRegister" invocation-numbers="0"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- selenium_grid.SeleniumGridTestcase -->
+      </class> <!-- Healthtest_Capstone_Project_Wipro.WestFlorida_human -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

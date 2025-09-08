@@ -1,54 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-23T12:46:56 IST" name="Functional" finished-at="2025-08-23T12:47:17 IST" duration-ms="20471">
+  <suite started-at="2025-09-08T07:15:35 IST" name="WestFlorida_Automation_Suite" finished-at="2025-09-08T07:18:34 IST" duration-ms="179587">
     <groups>
+      <group name="Sanity">
+        <method signature="WestFlorida_human.openWebsite()[pri:1, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="openWebsite" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+        <method signature="WestFlorida_human.searchAndNavigate(java.lang.String)[pri:2, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="searchAndNavigate" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+        <method signature="WestFlorida_human.homePageNavigationTests()[pri:4, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="homePageNavigationTests" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="WestFlorida_human.searchAndNavigate(java.lang.String)[pri:2, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="searchAndNavigate" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+        <method signature="WestFlorida_human.homePageNavigationTests()[pri:4, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="homePageNavigationTests" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+        <method signature="WestFlorida_human.tobaccoProgramTest()[pri:5, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="tobaccoProgramTest" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+        <method signature="WestFlorida_human.ahecScholarsProgramTest()[pri:6, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="ahecScholarsProgramTest" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+        <method signature="WestFlorida_human.healthyAgingProgramTest()[pri:7, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="healthyAgingProgramTest" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+        <method signature="WestFlorida_human.coveringFloridaProgramTest()[pri:8, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="coveringFloridaProgramTest" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+        <method signature="WestFlorida_human.communityBasedEducationTest()[pri:9, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="communityBasedEducationTest" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+        <method signature="WestFlorida_human.continuingEducationServiceTest()[pri:10, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" name="continuingEducationServiceTest" class="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-08-23T12:46:56 IST" name="Functional" finished-at="2025-08-23T12:47:17 IST" duration-ms="20471">
-      <class name="TestNG.TestNGParameters">
-        <test-method signature="testparameters(java.lang.String,java.lang.String)[pri:0, instance:TestNG.TestNGParameters@65466a6a]" started-at="2025-08-23T12:46:56 IST" name="testparameters" finished-at="2025-08-23T12:46:56 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by @Test on method testparameters but has not been marked @Optional or defined
-in E:\EclipseWorkspace\Selenium-tst\testng19_8.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by @Test on method testparameters but has not been marked @Optional or defined
-in E:\EclipseWorkspace\Selenium-tst\testng19_8.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-at java.base/java.lang.Thread.run(Thread.java:1447)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2025-09-08T07:15:35 IST" name="WestFlorida Test Execution" finished-at="2025-09-08T07:18:34 IST" duration-ms="179587">
+      <class name="Healthtest_Capstone_Project_Wipro.WestFlorida_human">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:15:35 IST" name="setup" finished-at="2025-09-08T07:15:37 IST" duration-ms="2692" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testparameters -->
-      </class> <!-- TestNG.TestNGParameters -->
-      <class name="TestNG.TestNGMultipleTestcases">
-        <test-method signature="Alert()[pri:0, instance:TestNG.TestNGMultipleTestcases@20d28811]" started-at="2025-08-23T12:46:56 IST" name="Alert" finished-at="2025-08-23T12:47:11 IST" duration-ms="14470" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="openWebsite()[pri:1, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:15:37 IST" name="openWebsite" finished-at="2025-09-08T07:15:41 IST" duration-ms="3147" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Alert -->
-        <test-method signature="launchbrowser()[pri:0, instance:TestNG.TestNGMultipleTestcases@20d28811]" started-at="2025-08-23T12:47:11 IST" name="launchbrowser" finished-at="2025-08-23T12:47:17 IST" duration-ms="5962" status="PASS">
+        </test-method> <!-- openWebsite -->
+        <test-method signature="searchAndNavigate(java.lang.String)[pri:2, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:15:41 IST" name="searchAndNavigate" finished-at="2025-09-08T07:15:45 IST" depends-on-methods="Healthtest_Capstone_Project_Wipro.WestFlorida_human.openWebsite" duration-ms="4812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[programs]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchbrowser -->
-      </class> <!-- TestNG.TestNGMultipleTestcases -->
-    </test> <!-- Functional -->
-  </suite> <!-- Functional -->
+        </test-method> <!-- searchAndNavigate -->
+        <test-method signature="homePageNavigationTests()[pri:4, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:15:45 IST" name="homePageNavigationTests" finished-at="2025-09-08T07:16:06 IST" duration-ms="20533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigationTests -->
+        <test-method signature="tobaccoProgramTest()[pri:5, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:16:06 IST" name="tobaccoProgramTest" finished-at="2025-09-08T07:16:11 IST" depends-on-methods="Healthtest_Capstone_Project_Wipro.WestFlorida_human.homePageNavigationTests" duration-ms="4756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tobaccoProgramTest -->
+        <test-method signature="ahecScholarsProgramTest()[pri:6, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:16:11 IST" name="ahecScholarsProgramTest" finished-at="2025-09-08T07:18:03 IST" depends-on-methods="Healthtest_Capstone_Project_Wipro.WestFlorida_human.homePageNavigationTests" duration-ms="112089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ahecScholarsProgramTest -->
+        <test-method signature="healthyAgingProgramTest()[pri:7, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:18:03 IST" name="healthyAgingProgramTest" finished-at="2025-09-08T07:18:12 IST" depends-on-methods="Healthtest_Capstone_Project_Wipro.WestFlorida_human.ahecScholarsProgramTest" duration-ms="9647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthyAgingProgramTest -->
+        <test-method signature="coveringFloridaProgramTest()[pri:8, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:18:12 IST" name="coveringFloridaProgramTest" finished-at="2025-09-08T07:18:27 IST" depends-on-methods="Healthtest_Capstone_Project_Wipro.WestFlorida_human.healthyAgingProgramTest" duration-ms="14867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coveringFloridaProgramTest -->
+        <test-method signature="communityBasedEducationTest()[pri:9, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:18:27 IST" name="communityBasedEducationTest" finished-at="2025-09-08T07:18:31 IST" depends-on-methods="Healthtest_Capstone_Project_Wipro.WestFlorida_human.coveringFloridaProgramTest" duration-ms="4034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- communityBasedEducationTest -->
+        <test-method signature="continuingEducationServiceTest()[pri:10, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:18:31 IST" name="continuingEducationServiceTest" finished-at="2025-09-08T07:18:34 IST" depends-on-methods="Healthtest_Capstone_Project_Wipro.WestFlorida_human.communityBasedEducationTest" duration-ms="2426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuingEducationServiceTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Healthtest_Capstone_Project_Wipro.WestFlorida_human@63021689]" started-at="2025-09-08T07:18:34 IST" name="teardown" finished-at="2025-09-08T07:18:34 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Healthtest_Capstone_Project_Wipro.WestFlorida_human -->
+    </test> <!-- WestFlorida Test Execution -->
+  </suite> <!-- WestFlorida_Automation_Suite -->
 </testng-results>

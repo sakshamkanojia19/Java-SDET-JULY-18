@@ -1,0 +1,5 @@
+# Created at 2025-09-08T07:09:17.593
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Wipro Java Codes\Java1\Java-SDET-JULY-18\Selenium-tst\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

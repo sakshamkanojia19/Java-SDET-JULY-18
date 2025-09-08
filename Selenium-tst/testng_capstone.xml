@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="WestFlorida_Automation_Suite" parallel="false">
+    <parameter name="searchText" value="programs" />
+    <parameter name="registerPassword" value="saksham@20" />
+
+    <test name="WestFlorida Test Execution">
+        <classes>
+            <class name="Healthtest_Capstone_Project_Wipro.WestFlorida_human"/>
+        </classes>
+    </test>
+</suite>
