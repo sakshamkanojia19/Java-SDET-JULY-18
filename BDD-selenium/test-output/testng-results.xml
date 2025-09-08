@@ -1,173 +1,477 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+<testng-results ignored="0" total="12" passed="4" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-26T11:50:34 IST" name="BDD-Test" finished-at="2025-08-26T11:51:51 IST" duration-ms="77540">
+  <suite started-at="2025-09-08T08:14:45 IST" name="Default suite" finished-at="2025-09-08T08:17:19 IST" duration-ms="153958">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-08-26T11:50:34 IST" name="sampletest" finished-at="2025-08-26T11:51:51 IST" duration-ms="77540">
+    <test started-at="2025-09-08T08:14:45 IST" name="Default test" finished-at="2025-09-08T08:17:19 IST" duration-ms="153958">
       <class name="TestRunner.MyTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-08-26T11:50:34 IST" name="setUpClass" finished-at="2025-08-26T11:50:35 IST" duration-ms="780" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:14:45 IST" name="setUpClass" finished-at="2025-09-08T08:14:45 IST" duration-ms="600" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1a2e563e]]>
+                <![CDATA[org.testng.TestRunner@13f4048e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-08-26T11:50:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-26T11:50:46 IST" duration-ms="11292" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:14:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:14:51 IST" duration-ms="5396" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify the login functionality for valid credentials"]]>
+                <![CDATA["Verify website title and basic navigation"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Functionality"]]>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-08-26T11:50:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-26T11:50:55 IST" duration-ms="8613" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:14:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:14:56 IST" duration-ms="5849" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify the login functionality for multiple credentials"]]>
+                <![CDATA["Search functionality and navigation back"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Functionality"]]>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-08-26T11:50:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-26T11:51:03 IST" duration-ms="8626" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:14:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:15:02 IST" duration-ms="5399" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify the login functionality for multiple credentials"]]>
+                <![CDATA["Search functionality and navigation back"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Functionality"]]>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-08-26T11:51:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-26T11:51:12 IST" duration-ms="8486" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:15:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:15:20 IST" duration-ms="18335" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify the login functionality for multiple credentials"]]>
+                <![CDATA["My Account page access and registration attempt"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-08-26T11:51:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-26T11:51:29 IST" duration-ms="17312" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify the login functionality for multiple credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //li[1]//a[1]//span[1] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.name: register (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58533}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58533/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1de77dafc3343c8d8614aa727e2ec780]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61757/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d097946cc9a273e6e726cf66dde3c759]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //li[1]//a[1]//span[1] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.name: register (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58533}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58533/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1de77dafc3343c8d8614aa727e2ec780
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61757/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d097946cc9a273e6e726cf66dde3c759
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at StepDefinitions.StepDefinitions.user_is_navigated_to_home_page(StepDefinitions.java:1461)
-at ✽.user is navigated to home page(file:///E:/Wipro%20Java%20Codes/Java1/Java-SDET-JULY-18/BDD-selenium/src/test/resource/features/login.feature:34)
+at pages.MyAccountPage.clickRegister(MyAccountPage.java:41)
+at StepDefinitions.MyAccountStepDefinitions.the_user_registers_with_username_email_and_password(MyAccountStepDefinitions.java:40)
+at ✽.the user registers with username "TestUser", email "test@example.com", and password "Test@123"(file:///E:/Wipro%20Java%20Codes/Java1/Java-SDET-JULY-18/BDD-selenium/src/test/resource/features/westfloridaahec.feature:25)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-08-26T11:51:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-26T11:51:47 IST" duration-ms="17588" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:15:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:15:34 IST" duration-ms="13944" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify the login functionality for multiple credentials"]]>
+                <![CDATA["Home page navigation to Health Insurance Navigation"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Functionality"]]>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Health Insurance Navigation page not displayed. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Health Insurance Navigation page not displayed. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at StepDefinitions.HomePageNavigationStepDefinitions.the_health_insurance_navigation_page_should_be_displayed(HomePageNavigationStepDefinitions.java:22)
+at ✽.the Health Insurance Navigation page should be displayed(file:///E:/Wipro%20Java%20Codes/Java1/Java-SDET-JULY-18/BDD-selenium/src/test/resource/features/westfloridaahec.feature:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:15:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:15:42 IST" duration-ms="7628" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page navigation to AHEC Scholars from home page section"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div style="--awb-backgroundcolor:rgba(255,255,255,0);--awb-iconcolor:#224e86;" class="fusion-column content-box-column content-box-column content-box-column-4 col-lg-3 col-md-3 col-sm-3 fusion-content-box-hover content-box-column-last content-box-column-last-in-row">...</div> is not clickable at point (1413, 18). Other element would receive the click: <input type="search" value="" name="s" class="s" placeholder="Search..." required="" aria-required="true" aria-label="Search...">
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ece743f75e93c01faf33130f9351c55, clickElement {id=f.2BA64B99992AD8505B61A47C5F1EFD47.d.6CCBB269A5849F06BB68EB98CF86AD7A.e.65}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52507/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2ece743f75e93c01faf33130f9351c55)] -> xpath: //*[normalize-space()='AHEC SCHOLARS']]
+Session ID: 2ece743f75e93c01faf33130f9351c55]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div style="--awb-backgroundcolor:rgba(255,255,255,0);--awb-iconcolor:#224e86;" class="fusion-column content-box-column content-box-column content-box-column-4 col-lg-3 col-md-3 col-sm-3 fusion-content-box-hover content-box-column-last content-box-column-last-in-row">...</div> is not clickable at point (1413, 18). Other element would receive the click: <input type="search" value="" name="s" class="s" placeholder="Search..." required="" aria-required="true" aria-label="Search...">
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ece743f75e93c01faf33130f9351c55, clickElement {id=f.2BA64B99992AD8505B61A47C5F1EFD47.d.6CCBB269A5849F06BB68EB98CF86AD7A.e.65}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52507/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2ece743f75e93c01faf33130f9351c55)] -> xpath: //*[normalize-space()='AHEC SCHOLARS']]
+Session ID: 2ece743f75e93c01faf33130f9351c55
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pages.HomePage.clickElementByText(HomePage.java:116)
+at StepDefinitions.HomePageNavigationStepDefinitions.the_user_clicks_on_ahec_scholars_from_the_home_page(HomePageNavigationStepDefinitions.java:29)
+at ✽.the user clicks on AHEC Scholars from the home page(file:///E:/Wipro%20Java%20Codes/Java1/Java-SDET-JULY-18/BDD-selenium/src/test/resource/features/westfloridaahec.feature:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:15:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:15:49 IST" duration-ms="7178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to and verify Tobacco Program page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:15:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:16:20 IST" duration-ms="31163" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fill and submit Healthy Aging Program form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="el-checkbox__label">...</span> is not clickable at point (425, 9). Other element would receive the click: <img src="https://westfloridaahec.org/wp-content/uploads/2020/06/logo.png" srcset="https://westfloridaahec.org/wp-content/uploads/2020/06/logo.png 1x" width="247" height="96" alt="West Florida Area Health Education Center, Inc Logo" data-retina_logo_url="" class="fusion-standard-logo">
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8bbbe6d4265ea6ae73e0ab69b6854686, clickElement {id=f.092702D33C97D7B1000E2D514225F8E0.d.24D0FD7A348890FBA23DC6C96F27D652.e.181}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52497}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52497/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8bbbe6d4265ea6ae73e0ab69b6854686)] -> xpath: //span[normalize-space()='Tai Chi for Arthritis']]
+Session ID: 8bbbe6d4265ea6ae73e0ab69b6854686]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="el-checkbox__label">...</span> is not clickable at point (425, 9). Other element would receive the click: <img src="https://westfloridaahec.org/wp-content/uploads/2020/06/logo.png" srcset="https://westfloridaahec.org/wp-content/uploads/2020/06/logo.png 1x" width="247" height="96" alt="West Florida Area Health Education Center, Inc Logo" data-retina_logo_url="" class="fusion-standard-logo">
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8bbbe6d4265ea6ae73e0ab69b6854686, clickElement {id=f.092702D33C97D7B1000E2D514225F8E0.d.24D0FD7A348890FBA23DC6C96F27D652.e.181}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52497}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52497/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8bbbe6d4265ea6ae73e0ab69b6854686)] -> xpath: //span[normalize-space()='Tai Chi for Arthritis']]
+Session ID: 8bbbe6d4265ea6ae73e0ab69b6854686
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pages.HealthyAgingProgramPage.fillForm(HealthyAgingProgramPage.java:49)
+at StepDefinitions.HealthyAgingProgramStepDefinitions.the_user_fills_the_healthy_aging_form_with_details(HealthyAgingProgramStepDefinitions.java:31)
+at ✽.the user fills the Healthy Aging form with details: "John", "Doe", "1234567890", "john.doe@example.com", "Engineer", "This is a test comment."(file:///E:/Wipro%20Java%20Codes/Java1/Java-SDET-JULY-18/BDD-selenium/src/test/resource/features/westfloridaahec.feature:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:16:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:16:34 IST" duration-ms="13640" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fill and submit AHEC Scholars Program form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: File not found : /path/to/dummy.pdf
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6c0fc3a0e898843b4e93a336ee591125, sendKeysToElement {value=[Ljava.lang.CharSequence;@22865072, id=f.698FF23FA615B38B53004CF5AF8B38E4.d.60FEF7EF917D4EE57C5DCDEFEE118F3B.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60215/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6c0fc3a0e898843b4e93a336ee591125)] -> xpath: //input[@type='file']]
+Session ID: 6c0fc3a0e898843b4e93a336ee591125]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /path/to/dummy.pdf
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6c0fc3a0e898843b4e93a336ee591125, sendKeysToElement {value=[Ljava.lang.CharSequence;@22865072, id=f.698FF23FA615B38B53004CF5AF8B38E4.d.60FEF7EF917D4EE57C5DCDEFEE118F3B.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60215/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6c0fc3a0e898843b4e93a336ee591125)] -> xpath: //input[@type='file']]
+Session ID: 6c0fc3a0e898843b4e93a336ee591125
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at pages.AHECScholarsProgramPage.fillApplicationForm(AHECScholarsProgramPage.java:107)
+at StepDefinitions.AHECScholarsProgramStepDefinitions.the_user_fills_the_ahec_scholars_application_form_with_details(AHECScholarsProgramStepDefinitions.java:30)
+at ✽.the user fills the AHEC Scholars application form with details: "Jane", "Doe", "01/01/2000", "123 Main St", "Anytown", "12345", "123 Main St", "Anytown", "12345", "0987654321", "jane.doe@example.com", "12/31/2025", "Dean's List", "Online Search", "My essay content", "/path/to/dummy.pdf"(file:///E:/Wipro%20Java%20Codes/Java1/Java-SDET-JULY-18/BDD-selenium/src/test/resource/features/westfloridaahec.feature:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:16:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:16:50 IST" duration-ms="15816" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fill and submit Covering Florida Program form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //li[1]//a[1]//span[1] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for title to contain "Covering Florida". Current title: "Navigators - West Florida Area Health Education Center, Inc" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50417/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 056e82d1064ce4347a7501b8e5a07994]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60271/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de8bf5d4c4a8941941fc8e9f5c7c6861]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //li[1]//a[1]//span[1] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Covering Florida". Current title: "Navigators - West Florida Area Health Education Center, Inc" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50417/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 056e82d1064ce4347a7501b8e5a07994
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60271/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de8bf5d4c4a8941941fc8e9f5c7c6861
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at StepDefinitions.StepDefinitions.user_is_navigated_to_home_page(StepDefinitions.java:1461)
-at ✽.user is navigated to home page(file:///E:/Wipro%20Java%20Codes/Java1/Java-SDET-JULY-18/BDD-selenium/src/test/resource/features/login.feature:34)
+at pages.HomePage.clickCoveringFlorida(HomePage.java:95)
+at StepDefinitions.CoveringFloridaProgramStepDefinitions.the_user_clicks_on_covering_florida_program(CoveringFloridaProgramStepDefinitions.java:20)
+at ✽.the user clicks on Covering Florida program(file:///E:/Wipro%20Java%20Codes/Java1/Java-SDET-JULY-18/BDD-selenium/src/test/resource/features/westfloridaahec.feature:78)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-08-26T11:51:47 IST" name="tearDownClass" finished-at="2025-08-26T11:51:51 IST" duration-ms="4775" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:16:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:16:54 IST" duration-ms="4571" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Community Based Student Education and Training page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'the user hovers over Services menu' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("the user hovers over Services menu")
+public void the_user_hovers_over_services_menu() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks on {string}")
+public void clicks_on(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'the user hovers over Services menu' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("the user hovers over Services menu")
+public void the_user_hovers_over_services_menu() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks on {string}")
+public void clicks_on(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.the user hovers over Services menu(file:///E:/Wipro%20Java%20Codes/Java1/Java-SDET-JULY-18/BDD-selenium/src/test/resource/features/westfloridaahec.feature:86)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:16:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T08:16:58 IST" duration-ms="3855" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Continuing Education page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["West Florida AHEC Website Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'the user hovers over Services menu' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("the user hovers over Services menu")
+public void the_user_hovers_over_services_menu() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks on {string}")
+public void clicks_on(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'the user hovers over Services menu' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("the user hovers over Services menu")
+public void the_user_hovers_over_services_menu() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks on {string}")
+public void clicks_on(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.the user hovers over Services menu(file:///E:/Wipro%20Java%20Codes/Java1/Java-SDET-JULY-18/BDD-selenium/src/test/resource/features/westfloridaahec.feature:94)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.MyTestRunner@6a2f6f80]" started-at="2025-09-08T08:16:58 IST" name="tearDownClass" finished-at="2025-09-08T08:17:19 IST" duration-ms="20506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- TestRunner.MyTestRunner -->
-    </test> <!-- sampletest -->
-  </suite> <!-- BDD-Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

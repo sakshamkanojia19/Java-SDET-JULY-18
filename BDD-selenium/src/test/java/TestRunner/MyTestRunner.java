@@ -97,23 +97,46 @@ public class MyTestRunner {}
 
 
 
-package TestRunner;
+//package TestRunner;
+//
+//import io.cucumber.testng.AbstractTestNGCucumberTests;
+//import io.cucumber.testng.CucumberOptions;
+//
+//@CucumberOptions(
+//    features = "src/test/resource/features/login.feature",
+//    glue = {"StepDefinitions", "Hooks"},
+//    plugin = {
+//        "pretty",
+//        "html:target/cucumber-reports/cucumber.html",
+//        "json:target/cucumber-reports/cucumber.json",
+//        "junit:target/cucumber-reports/cucumber.xml"
+//    },
+//    monochrome = true
+////    tags = "@positive or @regression"
+//)
+//public class MyTestRunner extends AbstractTestNGCucumberTests {
+//}
 
+
+
+//For Health capstone
+
+package TestRunner;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
-
 @CucumberOptions(
-    features = "src/test/resource/features/login.feature",
-    glue = {"StepDefinitions", "Hooks"},
-    plugin = {
-        "pretty",
-        "html:target/cucumber-reports/cucumber.html",
-        "json:target/cucumber-reports/cucumber.json",
-        "junit:target/cucumber-reports/cucumber.xml"
-    },
-    monochrome = true
-//    tags = "@positive or @regression"
+   features = "src/test/resource/features/westfloridaahec.feature",
+   glue = {"StepDefinitions", "Hooks"},
+   plugin = {
+       "pretty",
+       "html:target/cucumber-reports/cucumber.html",
+       "json:target/cucumber-reports/cucumber.json",
+       "junit:target/cucumber-reports/cucumber.xml"
+   },
+   monochrome = true
 )
 public class MyTestRunner extends AbstractTestNGCucumberTests {
 }
+
+
 
