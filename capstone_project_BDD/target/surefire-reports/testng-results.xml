@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T03:51:56 IST" name="CucumberSuite" finished-at="2025-09-08T04:02:15 IST" duration-ms="618888">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@42e99e4a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-08T03:51:56 IST" name="CucumberTests" finished-at="2025-09-08T04:02:15 IST" duration-ms="618888">
+      <class name="TestRunner.MyTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.MyTestRunner@42e99e4a]" started-at="2025-09-08T03:51:56 IST" name="setUpClass" finished-at="2025-09-08T03:51:57 IST" duration-ms="727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a116354]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@42e99e4a]" started-at="2025-09-08T03:51:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:54:04 IST" duration-ms="127804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration attempt with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page and Account flows"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@42e99e4a]" started-at="2025-09-08T03:54:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:56:20 IST" duration-ms="135948" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login attempt using previously-registered or fallback credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page and Account flows"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[A credential (registered email or username) should have been available for the login attempt. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: A credential (registered email or username) should have been available for the login attempt. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at StepDefinations.CapstoneHomePageSteps.the_login_attempt_should_be_recorded_logged_in_indicator_or_graceful_failure(CapstoneHomePageSteps.java:103)
+at ✽.the login attempt should be recorded (logged-in indicator or graceful failure)(file:///Users/siddhantshrivastav/Desktop/Capstone_Project/BDD/src/test/resources/Features/Capstone_HomePage.feature:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@42e99e4a]" started-at="2025-09-08T03:56:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:57:21 IST" duration-ms="61090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page basic verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page and Account flows"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@42e99e4a]" started-at="2025-09-08T03:57:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:58:51 IST" duration-ms="89328" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering Programs menu shows sub-links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page and Account flows"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Tobacco should be visible under Programs expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Tobacco should be visible under Programs expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at StepDefinations.CapstoneHomePageSteps.the_link_should_be_visible_under_programs(CapstoneHomePageSteps.java:135)
+at ✽.the "Tobacco" link should be visible under Programs(file:///Users/siddhantshrivastav/Desktop/Capstone_Project/BDD/src/test/resources/Features/Capstone_HomePage.feature:42)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@42e99e4a]" started-at="2025-09-08T03:58:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:59:51 IST" duration-ms="60626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Health programs are listed under Programs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page and Account flows"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@42e99e4a]" started-at="2025-09-08T03:59:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T04:00:41 IST" duration-ms="49491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["At least one expected resource link is present on Home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page and Account flows"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@42e99e4a]" started-at="2025-09-08T04:00:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T04:02:07 IST" duration-ms="86066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search returns results for a query"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page and Account flows"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.MyTestRunner@42e99e4a]" started-at="2025-09-08T04:02:07 IST" name="tearDownClass" finished-at="2025-09-08T04:02:15 IST" duration-ms="7754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.MyTestRunner -->
+    </test> <!-- CucumberTests -->
+  </suite> <!-- CucumberSuite -->
+</testng-results>

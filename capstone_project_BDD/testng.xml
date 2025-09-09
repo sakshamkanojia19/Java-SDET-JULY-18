@@ -1,0 +1,8 @@
+
+<suite name="CucumberSuite">
+    <test name="CucumberTests">
+        <classes>
+            <class name="TestRunner.MyTestRunner"/>
+        </classes>
+    </test>
+</suite>

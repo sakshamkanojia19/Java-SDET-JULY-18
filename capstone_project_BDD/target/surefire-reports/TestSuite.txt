@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 619.4 s <<< FAILURE! -- in TestSuite
+TestRunner.MyTestRunner.runScenario["Login attempt using previously-registered or fallback credentials", "Home page and Account flows"](2) -- Time elapsed: 135.9 s <<< FAILURE!
+java.lang.AssertionError: A credential (registered email or username) should have been available for the login attempt. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at StepDefinations.CapstoneHomePageSteps.the_login_attempt_should_be_recorded_logged_in_indicator_or_graceful_failure(CapstoneHomePageSteps.java:103)
+	at ✽.the login attempt should be recorded (logged-in indicator or graceful failure)(file:///Users/siddhantshrivastav/Desktop/Capstone_Project/BDD/src/test/resources/Features/Capstone_HomePage.feature:26)
+
+TestRunner.MyTestRunner.runScenario["Hovering Programs menu shows sub-links", "Home page and Account flows"](4) -- Time elapsed: 89.33 s <<< FAILURE!
+java.lang.AssertionError: Tobacco should be visible under Programs expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at StepDefinations.CapstoneHomePageSteps.the_link_should_be_visible_under_programs(CapstoneHomePageSteps.java:135)
+	at ✽.the "Tobacco" link should be visible under Programs(file:///Users/siddhantshrivastav/Desktop/Capstone_Project/BDD/src/test/resources/Features/Capstone_HomePage.feature:42)
+
